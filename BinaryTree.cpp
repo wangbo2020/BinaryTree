@@ -28,56 +28,6 @@ BinaryTree::~BinaryTree(){
 
 
 
-
-//void BinaryTree::Insert(int key){
-//}
-
-/*
-void BinaryTree::Insert(int key, Node* leaf)
-{
-  if (leaf != NULL)
-   
-  {
-      if (leaf->keyValue > key)
-	{
-	  if (leaf->leftLeaf != NULL)
-	    {
-	      Insert(key,leaf->leftLeaf);
-	    }
-	  else
-	    {
-	      leaf->leftLeaf = new Node;
-	      leaf->leftLeaf->keyValue = key;
-	      leaf->leftLeaf->leftLeaf = NULL;
-	      leaf->leftLeaf->rightLeaf = NULL;
-	    }
-	}
-      else if (leaf->keyValue <= key)
-	{
-	  if (leaf->rightLeaf != NULL)
-	    {
-	      Insert(key,leaf->rightLeaf);
-	    }
-	  else
-	    {
-	      leaf->rightLeaf = new Node;
-	      leaf->rightLeaf->keyValue = key;
-	      leaf->rightLeaf->leftLeaf = NULL;
-	      leaf->rightLeaf->rightLeaf = NULL;
-	    }
-	} 
-    }
-
-  else
-    {
-      leaf = new Node;
-      leaf->keyValue = key;
-      leaf->leftLeaf = NULL;
-      leaf->rightLeaf = NULL;
-    }
-}
-*/
-
 void BinaryTree::Insert(int key, Node* leaf)
 {
   if (leaf->keyValue > key)
@@ -178,6 +128,7 @@ void BinaryTree::ShowTree()
     }
 }
 
+/*
 int main(){
   
   //PRINT(This is a string);
@@ -198,3 +149,4 @@ int main(){
 
   return 0;
 }
+*/
