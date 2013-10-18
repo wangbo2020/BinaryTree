@@ -1,0 +1,9 @@
+#include "BinaryTree.hpp"
+
+
+int main(){
+
+  PRINT(test de la macro fonction PRINT.);
+
+  return 0;
+}

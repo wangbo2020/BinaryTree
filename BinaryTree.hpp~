@@ -1,0 +1,28 @@
+#include <iostream>
+#define PRINT(x) cout << #x ## << endl;
+using namespace std;
+
+
+
+class Node{
+public:
+  int keyValue;
+  int* leftKey;
+  int* rightKey;
+};
+
+
+class BinaryTree{
+public:
+  BinaryTree(){ PRINT(Construction of a binary tree.) }
+
+private:
+
+};
+
+
+
+
+
+
+
